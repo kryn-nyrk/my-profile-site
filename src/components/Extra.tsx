@@ -30,25 +30,28 @@ const Extra: React.FC = () => {
           className="rounded-full mx-auto mb-4"
         />
         <div className="text-left">
-          <p className="text-lg font-semibold">名前:</p>
-          <span className="text-lg text-gray-600 mb-2 block">
-            黒田洋介（くろだようすけ）
+          <p className="text-lg font-semibold">サイト名:</p>
+          <span className="text-lg text-gray-600 mb-2 block hover:text-blue-500 underline">
+            <a
+              href="https://prameter-with-spotify-audio-features.vercel.app/"
+              target="_blank"
+            >
+              parameter with spotify audio features
+            </a>
           </span>
-          <p className="text-lg font-semibold">会社:</p>
+          <p className="text-lg font-semibold">概要:</p>
           <span className="text-lg text-gray-600 mb-2 block">
-            S株式会社 - 2024/08/31まで
+            SpotifyAPIを使用したサイトになります。<br></br>
+            楽曲の音響情報を視覚的に確認できたら面白いかなと感じたため制作しました。
           </span>
-          <p className="text-lg font-semibold">担当業務:</p>
-          <ul className="text-lg text-gray-600 mb-2 block">
-            <li>美容室向けポスレジシステムの導入</li>
-            <li>クライアントへの指導及び操作説明</li>
-            <li>お問い合わせに対しての電話・リモート対応</li>
-            <li>ハード不良時の訪問対応</li>
-          </ul>
-          <p className="text-lg font-semibold">About Me:</p>
-          <span className="text-lg text-gray-600 block">
-            I am a passionate software engineer with a love for creating
-            innovative solutions.
+          <p className="text-lg font-semibold">操作:</p>
+          <span className="text-lg text-gray-600 mb-2 block">
+            「Let's play」からSpotifyへログイン
+            ログイン後にユーザーのお気に入り楽曲が表示されるので楽曲を選択
+            楽曲の音響情報が表示され、その楽曲をもとにおすすめ楽曲が表示されます
+            おすすめ楽曲のイメージをクリックすると音響情報が表示され比較ができます
+            「add」ボタンを押すとプレイリスト作成の対象楽曲になります 「create
+            playlist」ボタンを押すとプレイリストが作成できます
           </span>
         </div>
       </div>

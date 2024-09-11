@@ -19,7 +19,7 @@ const Concept: React.FC = () => {
     <div
       id="concept"
       ref={elementRef}
-      className="flex items-center justify-center p-5"
+      className="flex items-center justify-center p-10"
     >
       <div className="shadow-xl rounded-lg p-10 text-center bg-white max-w-sm sm:max-w-md lg:max-w-lg mx-auto">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">Concept</h1>
@@ -34,7 +34,7 @@ const Concept: React.FC = () => {
           <p className="text-lg font-semibold">技術:</p>
           <span className="text-lg text-gray-600 mb-2 block">
             javascriptのフレームワークであるnext.jsを使用しています。<br></br>
-            cssはtailwindcssでデザインをしました。<br></br>
+            cssはtailwindcssを使用しました。<br></br>
             アニメーションはanime.jsを使用してエフェクトを実装しました。
           </span>
           <p className="text-lg font-semibold">デザイン:</p>
