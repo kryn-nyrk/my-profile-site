@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import { slideIn } from '@/animations';
 
@@ -13,12 +14,18 @@ const Top = () => {
   }, []);
 
   return (
-    <div
-      id="top"
-      ref={imageRef}
-      className="h-screen bg-fixed bg-cover bg-center"
-      style={{ backgroundImage: 'url(/images/top.png)' }}
-    ></div>
+    <div id="top" ref={imageRef} className="relative h-screen bg-slate-200">
+      <Image
+        src="/images/adorable-white-black-kitty-with-monochrome-wall-her.jpg"
+        alt="about"
+        width={1200}
+        height={1200}
+        className="object-cover w-full h-full"
+      />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+        <p className="text-white text-4xl font-bold font-mono">Yosuke Kuroda</p>
+      </div>
+    </div>
   );
 };
 

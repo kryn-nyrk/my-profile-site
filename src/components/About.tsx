@@ -23,6 +23,7 @@ const About: React.FC = () => {
     >
       <div className="shadow-xl rounded-lg p-10 text-center bg-white max-w-sm sm:max-w-md lg:max-w-lg mx-auto">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">About</h1>
+
         <Image
           src="/images/about.png"
           alt="about"
@@ -30,6 +31,16 @@ const About: React.FC = () => {
           height={120}
           className="rounded-full mx-auto mb-4"
         />
+        <a href="https://github.com/kryn-nyrk" target="_blank">
+          <Image
+            src="/images/Github-Logo-1--Streamline-Ultimate.png"
+            alt="github"
+            width={30}
+            height={30}
+            className="rounded-full mx-auto mb-4"
+          />
+        </a>
+
         <div className="text-left">
           <p className="text-lg font-semibold">名前:</p>
           <span className="text-lg text-gray-600 mb-2 block">

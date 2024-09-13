@@ -43,15 +43,15 @@ const Extra: React.FC = () => {
           <span className="text-lg text-gray-600 mb-2 block">
             SpotifyAPIを使用したサイトになります。<br></br>
             楽曲の音響情報を視覚的に確認できたら面白いかなと感じたため制作しました。
+            <br></br>
+            試作段階ですが楽しんでいただけると幸いです。
           </span>
-          <p className="text-lg font-semibold">操作:</p>
+          <p className="text-lg font-semibold">概要:</p>
           <span className="text-lg text-gray-600 mb-2 block">
-            「Let's play」からSpotifyへログイン
-            ログイン後にユーザーのお気に入り楽曲が表示されるので楽曲を選択
-            楽曲の音響情報が表示され、その楽曲をもとにおすすめ楽曲が表示されます
-            おすすめ楽曲のイメージをクリックすると音響情報が表示され比較ができます
-            「add」ボタンを押すとプレイリスト作成の対象楽曲になります 「create
-            playlist」ボタンを押すとプレイリストが作成できます
+            SpotifyAPIを使用したサイトになります。<br></br>
+            楽曲の音響情報を視覚的に確認できたら面白いかなと感じたため制作しました。
+            <br></br>
+            試作段階ですが楽しんでいただけると幸いです。
           </span>
         </div>
       </div>
