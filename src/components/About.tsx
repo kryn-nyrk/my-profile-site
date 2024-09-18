@@ -61,7 +61,7 @@ const About: React.FC = () => {
           </ul>
           <p className="text-base sm:text-lg font-semibold">スキル:</p>
           <span className="text-sm sm:text-lg text-gray-600 mb-2 block">
-            過去にpythonを過去に業務の自担ツール作成のため独学しておりました。
+            過去に業務の自担ツール作成のためpythonを独学しておりました。
             <br></br>
             現在はjavascript typescript next.js reactなど、<br></br>
             フロンドエンドの言語・フレームワークを独学で学習しております。
