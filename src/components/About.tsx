@@ -50,7 +50,7 @@ const About: React.FC = () => {
           </span>
           <p className="text-base sm:text-lg font-semibold">会社:</p>
           <span className="text-sm sm:text-lg text-gray-600 mb-2 block">
-            S株式会社 - 2024/08/31まで
+            S株式会社 2019/10/01- 2024/08/31
           </span>
           <p className="text-base sm:text-lg font-semibold">担当業務:</p>
           <ul className="text-sm sm:text-lg text-gray-600 mb-2 block">
@@ -61,7 +61,10 @@ const About: React.FC = () => {
           </ul>
           <p className="text-base sm:text-lg font-semibold">スキル:</p>
           <span className="text-sm sm:text-lg text-gray-600 mb-2 block">
-            javascript typescript next.js react gitを独学で学習しております。
+            過去にpythonを過去に業務の自担ツール作成のため独学しておりました。
+            <br></br>
+            現在はjavascript typescript next.js reactなど、<br></br>
+            フロンドエンドの言語・フレームワークを独学で学習しております。
           </span>
         </div>
       </div>

@@ -48,6 +48,12 @@ const Extra: React.FC = () => {
             <br></br>
             試作段階ですが楽しんでいただけると幸いです。
           </span>
+          <p className="text-base sm:text-lg font-semibold">技術:</p>
+          <span className="text-sm sm:text-lg text-gray-600 mb-2 block">
+            フレームワーク - next.js<br></br>
+            css - tailwindcss<br></br>
+            デプロイ - vercel<br></br>
+          </span>
         </div>
       </div>
     </div>
